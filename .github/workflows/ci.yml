@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     uses: Sagargupta16/shared-workflows/.github/workflows/python-ci.yml@main
+    with:
+      working-directory: backend
   security:
     uses: Sagargupta16/shared-workflows/.github/workflows/security-scan.yml@main
     permissions:
