@@ -62,6 +62,9 @@ htmlcov/
 # Ruff
 .ruff_cache/
 
+# Claude Code (per-machine local settings)
+.claude/settings.local.json
+
 # Misc
 *.bak
 *.tmp
