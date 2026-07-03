@@ -10,7 +10,7 @@ AI/ML-powered Indian stock market prediction, paper trading, and competitive lea
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Phase_1-blue?style=flat)]()
 
-> **Status:** Phase 1 scaffold -- most source files are placeholders while implementation is in progress. The Quick Start, Development Commands, Verify GPU, and ML Training sections describe the planned workflow and are not runnable yet.
+> **Status:** Phase 1 scaffold, in active development -- the directory structure is in place but source files and dependency manifests are empty placeholders. Nothing is installable or runnable yet. The sections below describe the planned product and workflow.
 
 ## What is StockSage-AI?
 
@@ -95,6 +95,10 @@ StockSage-AI/
 ```
 
 ## Quick Start
+
+**Current state:** there is nothing to install or run yet -- `requirements.txt` and `package.json` are empty placeholders until Phase 1 lands. To explore the project today, clone the repo and read [PLAN.md](PLAN.md).
+
+The planned workflow once Phase 1 ships:
 
 ### Prerequisites
 
