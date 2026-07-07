@@ -15,6 +15,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 StockSage-AI is an AI/ML-powered Indian stock market (NSE/BSE) prediction, paper trading, and competitive leaderboard platform. Users paper trade with Rs 1,00,000 virtual capital, compete on leaderboards, and benchmark against an autonomous AI trader. See `PLAN.md` for the comprehensive project plan with database schema, API design, ML pipeline, and implementation phases.
 
+**Current state: Phase 1 scaffold.** The directory layout exists, but most files (manifests, `docker-compose.yml`, backend/frontend sources) are empty placeholders. The Commands and Architecture sections below describe the planned workflow and are not runnable yet -- see the status note in `README.md`.
+
 ## Development Environment
 
 All development runs inside **WSL2 (Ubuntu)** on Windows 11. Do NOT use Windows paths or Windows-native commands. GPU training uses NVIDIA CUDA passthrough from the Windows host into WSL2.
